@@ -1,0 +1,28 @@
+{
+  "id": "axes-anxiety-sync",
+  "title": "Axes & Anxiety Portal Sync",
+  "description": "Synchronizes player-safe D&D5e character data from Foundry VTT to the Axes & Anxiety campaign portal.",
+  "version": "0.2.0",
+  "authors": [
+    {
+      "name": "Axes & Anxiety"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/sync.js"
+  ],
+  "manifest": "https://raw.githubusercontent.com/mcguiresean2021-ux/axes-anxiety-foundry-sync/main/module.json",
+  "download": "https://github.com/mcguiresean2021-ux/axes-anxiety-foundry-sync/archive/refs/heads/main.zip"
+}
